@@ -1,0 +1,53 @@
+.main-blue-tree {
+  padding: 32px;
+}
+
+.blue-tree-title {
+  font-family: 'Fugaz One', cursive;
+  color: #CFEDF2;
+  -webkit-text-stroke: 1px #276274;
+  font-size: 45px;
+}
+
+.container-image-hotel-info {
+  display: flex;
+}
+
+.daily-value,
+.address,
+.description,
+.oficial-link {
+  margin-left: 32px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.daily-value,
+.description {
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.oficial-link {
+  margin-top: 32px;
+}
+
+.address,
+.daily-value {
+  margin-top: 16px;
+}
+
+
+.how-to-get-title {
+  margin-top: 32px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+#map {
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+}
