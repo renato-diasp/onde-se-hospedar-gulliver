@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="stylesheet" href="./assets/css/hotel.css">
-  <title>Projeto Gulliver - Blue tree</title>
+  <title>Projeto Gulliver - Confort Ibirapuera</title>
 </head>
 <body>
   <header class="header">
@@ -27,28 +27,26 @@
     </section>
   </header>
   <main class="main-hotel">
-    <h2 class="hotel-title">Blue tree</h2>
+    <h2 class="hotel-title">Confort Ibirapuera</h2>
     <div class="container-image-hotel-info">
-      <img class="blue-tree-image" src="./assets/img/hotels/blue-tree.jpg" alt="">
+      <img class="blue-tree-image" src="./assets/img/hotels/confort.jpg" alt="Imagem da piscina dentro do hotel Confort Ibirapuera">
       <div class="container-hotel-info">
-        <a class="oficial-link" target="_blank" href="https://www.bluetree.com.br/hotel/blue-tree-premium-morumbi/">Visite o site oficial</a>
-        <p class="daily-value">Valor diária: R$ 350,00</p>
+        <a class="oficial-link" target="_blank" href="https://www.reserveatlantica.com.br/">Visite o site oficial</a>
+        <p class="daily-value">Valor diária: R$ 380,00</p>
         <p class="address">
-          Endereço: Avenida Cruzeiro Do Sul, 1709, Santana, São Paulo, CEP 02031-000
+          Endereço: Av. Sabiá, 825 - Indianópolis, São Paulo - SP, CEP: 04515-001
         </p>
         <article class="description">
-          Com Wi-Fi gratuito e localizado em frente ao Shopping Morumbi, o Blue Tree Premium
-          Morumbi oferece quartos com TV a cabo. O hotel possui piscina coberta com deck e piscina ao
-          ar livre com uma área de 20 metros para tomar sol.
-          Todos os quartos do Morumbi Blue Tree Premium têm ar-condicionado, frigobar e janelas com
-          isolamento acústico. O serviço de quarto está disponível 24 horas por dia. As suítes contam
-          com TV LCD.</br>
-          O Noah Jonnie Space, restaurante do hotel, oferece diversas especialidades, incluindo
-          refeições leves e típicas de várias regiões. O restaurante serve buffet internacional no almoço
-          e menu à la carte no jantar.</br>
-          O Blue Tree Premium Morumbi fica a 15 minutos de carro do Transamérica Expo Center e a
-          30 minutos de carro do São Paulo Expo (centro de convenções). O Consulado dos EUA está
-          situado a 1,4 km do hotel.</br>
+          O Confort Ibirapuera possui 79 confortáveis e aconchegantes apartamentos. Oferecemos
+          também facilidades como fitness center, piscina com solarium e deslumbrante vista de São
+          Paulo, room-service até às 23 horas, restaurante, recepção 24 horas e sala para eventos até 35
+          pessoas.</br>
+          Localizado em Moema, uma das melhores regiões de São Paulo, em frente a Moema do Metro
+          e estamos próximo a ótimos bares e restaurantes, a 1km do Shopping Ibirapuera e Parque do
+          Ibirapuera, e a 3,5km do aeroporto de Congonhas.</br>
+          Nosso estacionamento possui o custo fixo de R$ 21,00 + 5% de ISS com serviço de manobristas
+          de segunda a sábado das 07h às 19h, após esse horário, domingos e feriados o próprio
+          hóspede precisa manobrar seu veículo.</br>
         </article>
       </div>
     </div>
@@ -72,12 +70,18 @@
   <script>
     function initMap() {
       const coords = {
-        lat: -23.6228923,
-        lng: -46.6986682
+        lat: -23.6029322,
+        lng: -46.6620382
       };
       const map = new google.maps.Map(document.getElementById('map'), {
         center: coords,
-        zoom: 17,
+        zoom: 19,
+      });
+
+      const marker = new google.maps.Marker({
+        position: coords,
+        map,
+        title: 'Hotel Confort Ibirapuera',
       });
     }
   </script>
