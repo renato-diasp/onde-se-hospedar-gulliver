@@ -1,3 +1,11 @@
+.go-to-home {
+  font-family: Lato;
+  text-transform: uppercase;
+  height: 30px;
+  align-items: center;
+  color: #276274;
+}
+
 .main-hotel {
   padding: 32px;
 }
